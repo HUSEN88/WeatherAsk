@@ -1,0 +1,36 @@
+body{
+	background:url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SZMXphYEipbdr8zi/beautiful-clouds-close-up-weather-background_skp3rq4r__F0000.png) no-repeat fixed center;
+}
+
+input:focus{
+	border:2px solid #005588;
+}
+
+input{
+	width:300px;
+	color:#005588;
+	height:20px;
+	padding-left:10px;
+	float:left;
+	font-weight: bold;
+	border-radius:5px;
+	outline: 2px solid #fff;
+}
+
+button{
+	height: 31px;
+    width: 100px;
+    color: #fff;
+    background: #d74300;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-top: -2px;
+    margin-left: 10px;
+}
+
+button:hover{
+	color:#005588;
+	background:#fff;
+	border:2px solid #005588;
+}
