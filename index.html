@@ -1,19 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>WeatherAsk</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
-	<input type="text" value="Mumbai" /> <button id="submit">Submit</button>
+
+	<!-- convert temperature from celcius to fahrenheit and viceversa -->
+
+	<button class="btn btn-success" id="celcius">&degC</button>
+	<button class="btn btn-success" id="far">&degF</button>
+
+	<!-- input fied and search for city -->
+
+	<div class="search">
+		<input type="text" placeholder="Enter city name" id="autocomplete"> 
+		<button class="btn btn-primary btn-large"id="submit"><i class="glyphicon glyphicon-search"></i></button>
+	</div>
+
+	<!-- city name -->
+
 	<div id="city"></div>
-	<div id="temperture"></div>
-	<div id="humidity"></div>
-	<div id="pressure"></div>
+
+	<!-- status of current weather -->
+
+	<div class="status">
+		<img src="" id="icon"> <h2 id="status_text"></h2>
+	</div>
+
+	<!-- data of city -->
+
+	<div class="container">
+		<div class="data row">
+			<div class="col-md-6">
+				<div class="mb-90 temp">
+					<img class="temp-icon" src="img/temperature.png"><div id="temperature"></div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="mb-90 humidity">
+					<img class="hum-icon" src="img/humidity.png"><div id="humidity"></div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="mb-90 press">
+					<img class="press-icon" src="img/pressure.png"><div id="pressure"></div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="mb-90 wind">
+					<img class="wind-icon" src="img/wind.png"><div id="wind"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 
 
 
-<script type="text/javascript" src="custom-js.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="weather.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOJjXRljCExTfbfTRRVQgwOuoTgMQeHRQ&libraries=places&callback=activatePlacesSearch"></script>
+
+
 </body>
 </html>
