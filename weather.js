@@ -159,18 +159,18 @@ function theResponse(response) {
 
     var imagePhoto = {
 
-        thunder: "https://s-media-cache-ak0.pinimg.com/originals/2e/43/73/2e4373184057ab029b5ca15aca484b09.jpg",
-        rainy: "https://i.ytimg.com/vi/q76bMs-NwRk/maxresdefault.jpg",
-        cloudy: "https://static1.squarespace.com/static/57523357c2ea515ccf6c1adb/58dcea75bebafb06e997da9c/58dcece61e5b6cf38585d46b/1490873606398/mostly+cloudy.jpg",
-        snow: "https://static.bhphotovideo.com/explora/sites/default/files/Correct.jpg",
-        clear: "https://mota.ru/upload/wallpapers/2010/05/14/08/01/22099/mota_ru_0051405-2560x1600.jpg",
-        drizzle: "https://s-media-cache-ak0.pinimg.com/736x/e4/43/f5/e443f59b4f03dd487d090a279c2f08ab--rain-drops-water-drops.jpg",
-        haze: "https://ak3.picdn.net/shutterstock/videos/3578564/thumb/1.jpg",
-        tornado: "https://i.ytimg.com/vi/5QnsRXUbsK4/maxresdefault.jpg",
+        thunder: "http://hdqwalls.com/wallpapers/bthumb/thunderstorm-5k-7g.jpg",
+        rainy: "https://images5.alphacoders.com/600/thumb-1920-600816.jpg",
+        cloudy: "https://images.wallpaperscraft.com/image/clouds_porous_sky_116078_3840x2400.jpg",
+        snow: "https://images.alphacoders.com/220/thumb-350-22071.jpg",
+        clear: "https://images.pexels.com/photos/96622/pexels-photo-96622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        drizzle: "https://images8.alphacoders.com/714/thumb-1920-714894.jpg",
+        haze: "https://images.pexels.com/photos/163323/fog-dawn-landscape-morgenstimmung-163323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        tornado: "https://images.alphacoders.com/284/thumb-1920-284263.jpg",
         cold: "https://static.pexels.com/photos/374/snow-dawn-sunset-winter.jpg",
         windy: "https://ak9.picdn.net/shutterstock/videos/4337360/thumb/1.jpg",
         hail: "https://s-media-cache-ak0.pinimg.com/236x/7c/60/3d/7c603d9183ff32c92330780a2ebdcfca--rainy-weather-rainy-days.jpg",
-        sunny: "https://i.ytimg.com/vi/rG9fev-m0ag/maxresdefault.jpg"
+        sunny: "https://wallpaperstudio10.com/static/wpdb/wallpapers/1000x563/180913.jpg"
     };
 
     function selectImage (id){
