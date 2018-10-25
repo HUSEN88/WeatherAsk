@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WeatherAsk</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	
+			<h1>WeatherAsk</h1>
+	<!-- convert temperature from celcius to fahrenheit and viceversa -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-sm-6">
+			<button class="btn btn-primary" id="celcius">&degC</button>
+			<button class="btn btn-primary" id="far">&degF</button>
+		</div>
+
+	<!-- input fied and search for city -->
+		<div class="col-md-6 col-sm-6">
+			<div class="search">
+				<input type="text" placeholder="Enter city name" id="autocomplete"> 
+				<button class="btn btn-primary btn-large"id="submit"><i class="glyphicon glyphicon-search"></i> </button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<!-- city name -->
+	
+		
+		
+
+	<!-- status of current weather -->
+
+	
+
+	<!-- data of city -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<h3 id="city"></h3><br><br>
+				<h4 id="dayMonth"></h4>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<span class="status">
+					<img src="" id="icon" /> <h3 id="status_text"></h3>
+				</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="data">
+				<div class="col-md-3 col-sm-6">
+					<div class="temp">
+						<img class="temp-icon" src="img/temperature.png"><div id="temperature"></div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class=" humidity">
+						<img class="hum-icon" src="img/humidity.png"><div id="humidity"></div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class=" press">
+						<img class="press-icon" src="img/pressure.png"><div id="pressure"></div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class=" wind">
+						<img class="wind-icon" src="img/wind.png"><div id="wind"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="weather.js"></script>
+	<script type="text/javascript" src="clock.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOJjXRljCExTfbfTRRVQgwOuoTgMQeHRQ&libraries=places&callback=activatePlacesSearch"></script>
+
+
+</body>
+</html>
