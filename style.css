@@ -1,9 +1,18 @@
 body{
-	background:url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SZMXphYEipbdr8zi/beautiful-clouds-close-up-weather-background_skp3rq4r__F0000.png) no-repeat fixed center;
 	text-align:center;
-	color:#212121;
+	color:#000;
 	font-weight:700;
-	font-family:roboto,sans-serif;
+	font-family:verdana,sans-serif;
+	color:#fff;
+	padding:20px;
+	position:relative;
+	height:100%;
+	background-attachment: scroll;
+}
+h1{
+	margin-bottom: 50px;
+	text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px blue;
 }
 
 input:focus{
@@ -13,7 +22,7 @@ input:focus{
 input{
 	width:300px;
 	color:#005588;
-	height:33px;
+	height:29px;
 	margin-right:10px;
 	padding-left:10px;
 	font-weight: bold;
@@ -24,75 +33,75 @@ input{
 	width: 50%;
     height: 30px;
     margin: auto;
-    text-align: center;
-    display: table;
+    display: inline-flex;
+    float:right;
+}
+#submit{
+	margin-left:-10px;
 }
 
 #city{
-	font-size:40px;
-	margin-top:30px;
-	font-weight:900;
+	    font-size: 40px;
+    margin-top: 92px;
+    font-weight: 500;
     letter-spacing: 7px;
-    text-transform: uppercase;
-    text-decoration: underline;
+    float: left;
+    text-align: left;
+    position: absolute;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px blue;
   }
   .data{
-  	margin-top:40px;
+  	margin-top:110px;
   	position:relative;
-  	margin-right:150px;
-  	margin-left:150px;
+  	background:;
   	margin-bottom:40px;
   	font-size:30px;
-  	color:#000;
-  	font-family:loto;
+  	color:#eee;
+  	border-radius:10px;
+  	font-family:verdana;
+  	font-weight:200;
+  	text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px blue;
   }
 
 .mb-90{
 	margin-bottom:30px;
-	background: rgba(0,0,240,0.2);
 }
 
 .temp{
-	margin-right:30px;
-	width: 360px;
-    height: 157px;
     padding: 10px;
-        border-radius: 80px;
-        -webkit-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
--moz-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
+        
 }
 
 
 .press{
-	width: 360px;
-    height: 157px;
     padding: 10px;
-        border-radius: 80px;
-        -webkit-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
--moz-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
+        
 }
 
+.background{
+	height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
+#dayMonth{
+	float:left;
+	margin-top:110px;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
+}
 .humidity{
-	width: 360px;
-    height: 157px;
     padding: 10px;
-        border-radius: 80px;
-        -webkit-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
--moz-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
+       
 }
 
 .wind{
-	width: 360px;
-    height: 157px;
     padding: 10px;	
-        border-radius: 80px;
-        -webkit-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
--moz-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
-box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
+        
 }
 #celcius{
 	display:none;
@@ -100,7 +109,15 @@ box-shadow: inset 0px 1px 41px 6px rgba(0,85,136,1);
 
 .status{
 	display: inline-flex;
-    background: rgba(0,43,150,0.3);
     padding: 20px;
-    border-radius: 40px;
+    margin-top: 65px;
+    float:right;
+    text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px blue;
+}
+
+#celcius,#far{
+	font-weight: 900;
+	font-size:20px;
+	float:left;
 }
